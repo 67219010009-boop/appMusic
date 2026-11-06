@@ -1,0 +1,287 @@
+/* MonoFLAC - Strict Monochrome High-Contrast Theme */
+
+* {
+    transition-property: none;
+    transition-duration: 0s;
+    outline: none;
+    font-family: sans-serif;
+}
+
+window, .monoflac-window {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+headerbar, .titlebar {
+    background-color: #000000;
+    border-bottom: 1px solid #222222;
+    color: #ffffff;
+    padding: 4px;
+}
+
+label {
+    color: #ffffff;
+}
+
+.dim-label {
+    color: #888888;
+}
+
+.hi-res-badge {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 2px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.bitperfect-badge {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+button {
+    background-color: #111111;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    padding: 4px 10px;
+    font-weight: bold;
+    transition-property: none;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+
+button:hover label {
+    color: #000000;
+}
+
+button:active {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+button:active label {
+    color: #000000;
+}
+
+button.toggle-active {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+}
+
+button.toggle-active label {
+    color: #000000;
+}
+
+button.toggle-active:hover {
+    background-color: #dddddd;
+    color: #000000;
+    border-color: #ffffff;
+}
+
+button.toggle-active:hover label {
+    color: #000000;
+}
+
+button.icon-btn {
+    padding: 4px 6px;
+    background-color: #111111;
+    border: 1px solid #282828;
+    border-radius: 2px;
+}
+
+button.icon-btn:hover {
+    background-color: #222222;
+    border-color: #555555;
+}
+
+button.icon-btn-active {
+    background-color: #1c1c1c;
+    border: 1px solid #ffffff;
+}
+
+button.icon-btn-active:hover {
+    background-color: #282828;
+    border-color: #ffffff;
+}
+
+button.icon-btn:active,
+button.icon-btn-active:active {
+    background-color: #333333;
+}
+
+button.flat {
+    background-color: transparent;
+    border: none;
+}
+
+button.flat:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Menus and Dropdowns */
+menu {
+    background-color: #111111;
+    border: 1px solid #444444;
+    padding: 4px;
+}
+
+menuitem {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 6px 14px;
+    font-size: 13px;
+}
+
+menuitem:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+menuitem:disabled {
+    color: #666666;
+    background-color: #111111;
+}
+
+separator {
+    background-color: #333333;
+    min-height: 1px;
+}
+
+entry {
+    background-color: #111111;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+entry:focus {
+    border-color: #ffffff;
+}
+
+/* TreeView and Lists */
+treeview, list {
+    background-color: #080808;
+    color: #cccccc;
+    border: 1px solid #222222;
+}
+
+treeview:selected, list row:selected {
+    background-color: #222222;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+treeview:hover, list row:hover {
+    background-color: #141414;
+}
+
+treeview header button {
+    background-color: #000000;
+    color: #888888;
+    border-bottom: 1px solid #222222;
+    font-size: 11px;
+}
+
+/* Lyrics Display */
+.lyrics-box {
+    background-color: #050505;
+    border: 1px solid #222222;
+    padding: 16px;
+}
+
+.lyric-line-inactive {
+    color: #555555;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.lyric-line-active {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    border-left: 3px solid #ffffff;
+    padding: 6px 8px;
+}
+
+paned separator {
+    background-color: #1a1a1a;
+    min-width: 1px;
+    min-height: 1px;
+}
+
+combobox button {
+    background-color: #111111;
+    color: #ffffff;
+    border: 1px solid #333333;
+    padding: 3px 8px;
+}
+
+/* Seek Scale / Slider */
+scale trough {
+    background-color: #222222;
+    min-height: 4px;
+    border-radius: 0px;
+}
+
+scale highlight {
+    background-color: #ffffff;
+    min-height: 4px;
+    border-radius: 0px;
+}
+
+scale slider {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 0px;
+    margin: -3px;
+}
+
+/* Scrollbars */
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: #333333;
+    min-width: 6px;
+    border-radius: 0px;
+}
+
+scrollbar slider:hover {
+    background-color: #666666;
+}
+
+/* Tabs / Notebook */
+notebook tab {
+    background-color: #111111;
+    color: #888888;
+    border: 1px solid #222222;
+    padding: 6px 12px;
+}
+
+notebook tab:checked {
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
